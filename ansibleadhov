@@ -1,0 +1,305 @@
+    1  adduser CentOS
+    2  viasudo
+    3  visudo
+    4  nano /etc/hostname 
+    5  visudo
+    6  adduser centos1
+    7  passwd centos1
+    8  init 6
+    9  deluser ubuntu
+   10  delusr ubuntu
+   11  deluser ubuntu
+   12  userdel ubuntu
+   13  yum update
+   14  init 6
+   15  deluser ubuntu
+   16  delusr ubuntu
+   17  deluser ubuntu
+   18  userdel ubuntu
+   19  yum update
+   20  init 6
+   21  reboot
+   22  clear
+   23  yum install ansible
+   24  yum install python-pip
+   25  yum install epel-release
+   26  clear
+   27  yum install python-pip
+   28  clear
+   29  pip install ansible
+   30  ansible--version
+   31  ansible -version
+   32  ansible
+   33  ansible version
+   34  ansible -ver
+   35  clear
+   36  ls
+   37  ansible --version
+   38  cd /etc/ansible
+   39  yum install ansible
+   40  python
+   41  python --version
+   42  cd /etc/ansible/
+   43  ls
+   44  vi hosts
+   45  pwd
+   46  vi hosts
+   47  ls
+   48  vi ansible.cfg 
+   49  clear
+   50  git
+   51  yum install git
+   52  cd /home
+   53  ls
+   54  clear
+   55  git clone https://github.com/spurin/masteringansible.git
+   56  ls
+   57  cd masteringansible/
+   58  ls
+   59  cd 02\ -\ Ansible\ Architecture\ and\ Design/
+   60  ls
+   61  cd 01\ -\ Ansible\ Inventories/
+   62  ls
+   63  cd ..
+   64  cd 02\ -\ Ansible\ Modules/
+   65  ls
+   66  cd ..
+   67  cd 03\ -\ YAML/
+   68  ls
+   69  cd 01/
+   70  ls
+   71  cat test.yml 
+   72  clear
+   73  ls
+   74  ./show_yaml_python.py 
+   75  cat .sho
+   76  cat show_yaml_python.py 
+   77  cd ../02/
+   78  ls
+   79  cat test.yml 
+   80  ./show_yaml_python.py 
+   81  clear
+   82  cd ../03/
+   83  ls
+   84  cat test.yml 
+   85  ./show_yaml_python.py 
+   86  cd ../04/
+   87  ls
+   88  cat test.yml 
+   89  ./show_yaml_python.py 
+   90  cd ../05/
+   91  ls
+   92  cat test.yml 
+   93  ./show_yaml_python.py 
+   94  cd ../06/
+   95  ls
+   96  cat test.yml 
+   97  cd ../07/
+   98  ls
+   99  cat test.yml 
+  100  cd ../09/
+  101  ls
+  102  cat test.yml 
+  103  ../10/
+  104  ls
+  105  cd ../10/
+  106  ls
+  107  cat test.yml 
+  108  ./show_yaml_python.py 
+  109  cd ../11/
+  110  ls
+  111  cat test.yml 
+  112  cd ../12/
+  113  cat test.yml 
+  114  cd ../15/
+  115  cat test.yml 
+  116  cd ../18/
+  117  ls
+  118  cat test.yml 
+  119  cd ../19/
+  120  cat test.yml 
+  121  cd ../20/
+  122  cat test.yml 
+  123  cd ../21/
+  124  cat test.yml 
+  125  cd ../22/
+  126  cat test.yml 
+  127  clear
+  128  hostnamectl set-hostname --static ansiblemaster
+  129  bash
+  130  ssh-keygen -t rsa
+  131  cd /root/.ssh/
+  132  ls
+  133  cat id_rsa.pub 
+  134  vi /etc/hosts
+  135  ssh root@centos1
+  136  vi /etc/hosts
+  137  ssh root@ubuntu1
+  138  ssh ubuntu1@ubuntu1
+  139  cd /etc/ansible/hosts
+  140  vi /etc/ansible/hosts
+  141  ansible centos1 -m ping
+  142  ansible ubuntu1 -m ping
+  143  ssh root@ubutu1
+  144  ssh root@centos1
+  145  ssh-copy-id root@centos1
+  146  ssh-copy-id root@ubuntu1
+  147  ssh-copy-id ubuntu1@ubuntu1
+  148  ansible ubuntu1 -m ping
+  149  ansible centos1 -m ping
+  150  ssh ubuntu1@ubuntu1
+  151  ssh-copy-id root@ubuntu1
+  152  ssh-copy-id ubuntu@ubuntu1
+  153  clear
+  154  ansible centos1 -m ping
+  155  ansible all -m ping
+  156  ping centos1
+  157  lear
+  158  clear
+  159  ansible all -m ping
+  160  pwd
+  161  cd /etc/ansible/
+  162  ls
+  163  vi ansible.cfg 
+  164  history
+  165  ip a
+  166  history > myfile.txt
+  167  git init
+  168  git add .
+  169  git remote add origin https://github.com/gopal1409/cgiansible.git
+  170  git push -u origin master
+  171  git remote add origin https://github.com/gopal1409/cgiansible.git
+  172  git push origin master
+  173  git remote add origin https://github.com/gopal1409/ansiblecgi.git
+  174  git push -u origin master
+  175  history
+  176  ansible all -m ping
+  177  history
+  178  ansible all -m ping
+  179  ssh root@ubuntu1
+  180  ssh ubuntu1@ubuntu1
+  181  vi /etc/ansible/hosts
+  182  ansible all -m ping
+  183  clear
+  184  history
+  185  ip a
+  186  ssh-copy-id root@ubuntu1
+  187  ssh-copy-id ubuntu1@ubuntu1
+  188  ssh-copy-id ubuntu1@ubuntu1 -f
+  189  ssh ubuntu1@ubuntu1
+  190  ssh root@ubuntu1
+  191  ssh root@ubuntu1 -f
+  192  ssh-copy-id root@ubuntu1 -f
+  193  ssh-copy-id root@ubuntu1
+  194  ansible centos1
+  195  ping centos1
+  196  cat /etc/hosts
+  197  ping centos1
+  198  vi /etc/hosts
+  199  ssh root@ubuntu1
+  200  ssh-copy-id root@ubuntu1
+  201  cat /etc/hosts
+  202  ssh root@ubuntu1
+  203  ssh-copy-id root@ubuntu1
+  204  exit
+  205  vi hosts
+  206  ansible all -m ping
+  207  history
+  208  clear
+  209  ansible ---version
+  210  ansible --version
+  211  ansible all -m ping
+  212  ansible centos1 setup
+  213  ansible centos1 -m setup
+  214  ansible centos1 -m setup | more
+  215  clear
+  216  ansible all -m file -a 'path=/tmp/test state=touch'
+  217  ssh root@centos1
+  218  cat /etc/ansible/hosts
+  219  vi /etc/ansible/hosts
+  220  cd /etc
+  221  cd ansible/
+  222  ls
+  223  ansible all -m file -a 'path=/tmp/test state=touch'
+  224  ssh root@centos1
+  225  ansible all -m file -a 'path=/tmp/test state=file mode=600'
+  226  clear
+  227  touch /tmp/x
+  228  ansible all -m copy -a 'src=/tmp/x dest=/tmp/x'
+  229  ssh root@centos1
+  230  clear
+  231  ansible all -m copy -a 'src=/tmp/x dest=/tmp/x'
+  232  clear
+  233  ansible all -m copy -a 'remote_src=yes src=/tmp/x dest=/tmp/y'
+  234  cd /tmp
+  235  ls
+  236  cd y
+  237  rm -rf *.*
+  238  ls
+  239  rm -r *.*
+  240  rm *.*
+  241  rm *.* 
+  242  ansible all -m copy -a 'remote_src=yes src=/tmp/x dest=/tmp/y'
+  243  cd /tmp
+  244  ls
+  245  ls -la
+  246  cd ssh-gbEA9QKicrHj/
+  247  ls
+  248  cd ..
+  249  ls -l
+  250  cd Temp-b64e940b-c361-419f-9b78-c07b3b2148ed/
+  251  ls
+  252  cd ..
+  253  clear
+  254  ansible all -m command -a 'hostname'
+  255  ansible all -m command -a 'hostname' -o
+  256  ansible all -a 'id'
+  257  ansible all -m command -a 'hostname'
+  258  ansible all -a 'hostname'
+  259  clear
+  260  ansible all -a 'df -h'
+  261  ansible all -a 'free -m'
+  262  ansible all -a 'date'
+  263  clear
+  264  ansible all -m shell -a 'echo $TERM'
+  265  ansible all -m file -a 'dest=/tmp/x mode=755 owner=gopal group=gopal state=directory'
+  266  ansible all -m file -a 'dest=/tmp/z mode=755 owner=gopal group=gopal state=directory'
+  267  ansible all -b -m group -a "name=gopal state=present"
+  268  ssh root@centos1
+  269  ansible all -b -m group -a "name=gopal state=present"
+  270  ansible all -b -m user -a "name=gopal group=gopal createhome=yes"
+  271  ansible all -m file -a 'dest=/tmp/z mode=755 owner=gopal group=gopal state=directory'
+  272  clear
+  273  ansible all -b -m file -a "src=/tmp/hosts dest=/etc/hosts owner=root group=root state=link force=yes"
+  274  history
+  275  ansible all -m file -a "dest=/tmp/x state=absent"
+  276  clear
+  277  ansible -b app -B 3600 -a "yum -y update"
+  278  ansible all -b app -B 3600 -a "yum -y update"
+  279  ansible all -b -B 3600 -a "yum -y update"
+  280  ansible all -b -B 3600 -a "apt-get -y update"
+  281  ansible all -b -B 3600 -a "apt -y update"
+  282  clear
+  283  ssh root@centos1
+  284  clear
+  285  ansible centos1 -m yum -a "name=tree state=present"
+  286  ssh root@centos1
+  287  ansible centos1 -m yum -a "name=tree state=absent"
+  288  ssh root@centos1
+  289  ansible centos1 -m yum -a "name=httpd state=present"
+  290  ssh root@centos1
+  291  ansible centos1 -m service -a "name=httpd state=started"
+  292  ssh root@centos1
+  293  ansible centos1 -m service -a "name=httpd state=restarted"
+  294  ansible centos1 -m service -a "name=httpd state=stop"
+  295  ansible centos1 -m service -a "name=httpd state=stopped"
+  296  ansible centos1 -m service -a "name=httpd state=stop"
+  297  ansible centos1 -m yum -a "name=httpd state=prese"
+  298  ssh root@centos1
+  299  ansible centos1 -m shell -a 'fdisk -l' -u gopal 
+  300  ansible centos1 -m shell -a 'fdisk -l' -u gopal --become -K
+  301  ansible centos1 -m shell -a 'fdisk' -u gopal --become -K
+  302  ansible ubuntu1 -m shell -a 'fdisk' -u ubuntu1 --become -K
+  303  ansible ubuntu1 -m shell -a 'fdisk -l' -u ubuntu1 --become -K
+  304  history
+  305  history > ansibleadhoccommand.txt
